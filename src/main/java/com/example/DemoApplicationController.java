@@ -17,7 +17,6 @@ public class DemoApplicationController {
 	@RequestMapping(method=RequestMethod.GET)
 	@ResponseBody
 	public String greetings(){
-		LOGGER.info("***************");
 		return "Hello World";
 	}
 
